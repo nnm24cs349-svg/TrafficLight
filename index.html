@@ -5,7 +5,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Traffic Light Simulator</title>
 <style>
-
+ body{
+    display:flex;
+            flex-direction: column;
+            align-items: center;
+            background-repeat:no-repeat;
+            background-size: cover;
+            background-image: url(back1.png);
+ }   
 .traffic-light { 
 width: 100px; 
 height: 300px;
@@ -64,4 +71,5 @@ changeLights(); // Recursively call to keep the cycle going
 changeLights(); // Start the cycle
 </script>
 </body>
+
 </html>
